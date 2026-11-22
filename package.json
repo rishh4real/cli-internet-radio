@@ -6,6 +6,14 @@
   "files": ["dist", "README.md", "LICENSE"],
   "main": "./dist/src/cli.js",
   "exports": "./dist/src/cli.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishh4real/cli-internet-radio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rishh4real/cli-internet-radio/issues"
+  },
+  "homepage": "https://github.com/rishh4real/cli-internet-radio#readme",
   "engines": { "node": ">=20" },
   "scripts": {
     "build": "tsc -p tsconfig.json",

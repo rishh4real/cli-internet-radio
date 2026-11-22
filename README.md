@@ -6,7 +6,7 @@ Internet radio. In your terminal.
 
 Dialshift is a Node.js terminal radio player with station discovery, saved favorites, portable named presets, and a local playback session you can control from any shell.
 
-> **Repository link:** add the public GitHub repository URL here before submitting or publishing. This workspace does not yet have a Git remote.
+> **Repository:** [github.com/rishh4real/cli-internet-radio](https://github.com/rishh4real/cli-internet-radio)
 
 ## Install
 
@@ -111,17 +111,16 @@ The CLI and interactive TUI share station validation, storage, directory search,
 
 ## Landing page
 
-The local responsive page is in [`site/index.html`](site/index.html). Serve it with `python3 -m http.server 4173 --directory site` or any static server. It currently uses an SVG product preview derived from the working terminal layout; replace [`site/assets/dialshift-terminal.svg`](site/assets/dialshift-terminal.svg) with a captured terminal screenshot before a public launch. No Git remote was present in this empty workspace, so the landing page’s GitHub links remain placeholders.
+The local responsive page is in [`site/index.html`](site/index.html). Serve it with `python3 -m http.server 4173 --directory site` or any static server. It currently uses an SVG product preview derived from the working terminal layout; replace [`site/assets/dialshift-terminal.svg`](site/assets/dialshift-terminal.svg) with a captured terminal screenshot before a public launch. Update the landing page’s GitHub link to the repository URL before its public release.
 
 ## Publishing checklist
 
 Before submitting the GitHub link or publishing to npm:
 
 1. Choose a license and add its `LICENSE` file.
-2. Create a **public** GitHub repository, push this project, and replace the repository-link placeholder above.
-3. Add the public repository URL to `package.json` under `repository` and `bugs`.
-4. Run `npm test`, `npm run lint`, and `npm pack --dry-run`.
-5. Sign in to npm, confirm that the `dialshift` package name is available, then run `npm publish --access public`.
+2. Keep the [public GitHub repository](https://github.com/rishh4real/cli-internet-radio) current.
+3. Run `npm test`, `npm run lint`, and `npm pack --dry-run`.
+4. Sign in to npm, confirm that the `dialshift` package name is available, then run `npm publish --access public`.
 
 `prepack` compiles the TypeScript source, and the npm package includes the resulting `dist/` executable plus the README and license.
 
