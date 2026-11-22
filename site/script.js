@@ -1,0 +1,1 @@
+const button=document.querySelector('.terminal button');button?.addEventListener('click',async()=>{await navigator.clipboard.writeText('npm install && npm run build\nbrew install mpv && npm link\ndialshift');button.textContent='Copied';setTimeout(()=>button.textContent='Copy',1400)});
